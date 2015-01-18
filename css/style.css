@@ -1,0 +1,136 @@
+ body {
+    font: 100% Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(bg-stars-hori.png), url(bg-stars-hori2.png), url(bg-stars-hori3.png);
+    background-color: #000;
+	-webkit-font-smoothing: antialiased;
+    -webkit-animation: stars-horizontal 42s infinite linear;
+  }
+  
+  h1, h2, h3 {
+	clear: both;
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    text-shadow: 0 0 15px rgba(209,247,248,.4);
+    color: #90e4f9;
+  }
+  h2, h3 {
+    text-shadow: 0 0 15px rgba(209,247,248,.7);
+  }
+  
+  a {
+    color: #eef;
+  }
+  a:hover {
+    color: #fff;
+  }
+  a:visited {
+    color: #aac;
+  }
+    
+  p {
+    line-height: 1.4em;
+    margin: 1em 0;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+  }
+  
+  blockquote {
+    font-weight: bold;
+    margin: 0; padding: 0 2em;
+    line-height: 1.4em;
+	}
+    
+    blockquote span.quote {
+      font-family: Orbitron, Arial, Helvetica, sans-serif;
+      font-size: 300%; line-height: 80%;
+      float: left;
+      margin: 0 10px 0 0;
+    }
+  
+  span.strike { text-decoration: line-through; }
+  span.key {
+    -webkit-animation: keyflash infinite .6s ease-in alternate;
+  }
+  
+  article, section, header, footer, hgroup {
+    display: block;
+  }
+  
+  article {
+    margin: 0 auto;
+    width: 800px;
+    padding: 5em 0;
+  }
+  
+  section {
+    margin: 0 0 3em 0;
+    color: #eef;
+  }
+  section p.intro {
+    font-size: 140%;
+  }
+  
+  section figure {
+    float: right;
+    margin: 0 0 2em 2em;
+    width: 200px;
+	}
+    
+    section figure figcaption {
+      font-size: 80%;
+      margin: 1em 0 0 0;
+    }
+    section figure img {
+      border: solid 4px #fff;
+      box-shadow: 0 4px 4px rgba(0,0,0,.4);
+    }
+  
+  footer {
+    margin: 0 0 3em 0;
+    color: #eef;
+    font-size: 80%;
+  }
+  
+  div.col {
+    width: 380px;
+    float: left;
+    padding: 0 10px 3em 0;
+  }
+  
+  #banner {
+    margin: 0 0 2em 0;
+    position: relative;
+    }
+	
+   #banner h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    #banner time {
+      text-shadow: 0 0 15px rgba(209,247,248,.7);
+      font-family: Orbitron, Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: #fff;
+      font-size: 32px;
+      margin: 0;
+      display: inline;
+    }
+  
+    #banner #tweet {
+      position: absolute;
+      top: -4em; right: 0;
+    }
+
+  #lego {
+    float: right;
+    margin: -2em 0 2em 2em;
+  }
+  #lego img {
+    border: solid 5px white;
+    box-shadow: 0 0 10px rgba(0,0,0,.7);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.7);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.7);
+  }
+  

@@ -1,0 +1,16 @@
+@-webkit-keyframes stars-horizontal {
+    from {
+      background-position: 0 0, 0 0, 0 0;
+    }
+    to {
+      background-position: -8000px 0, -16000px 0, -400px 0;
+    }
+  }
+  @-webkit-keyframes keyflash {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
